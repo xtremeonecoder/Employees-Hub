@@ -1,0 +1,24 @@
+/**
+ * Employees Hub
+ *
+ * @category   Application_Frontend
+ * @package    employees-hub
+ * @author     Suman Barua
+ * @developer  Suman Barua <sumanbarua576@gmail.com>
+ */
+
+@import './themes/_variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $webBgColor;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

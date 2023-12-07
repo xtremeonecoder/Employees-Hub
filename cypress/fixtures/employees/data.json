@@ -1,0 +1,68 @@
+{
+  "sortBy": {
+    "name": {
+      "asc": {
+        "before": {
+          "employee": {
+            "first": "Abdallah Safarini",
+            "last": "Örjan Sjöholm"
+          }
+        },
+        "after": {
+          "employee": {
+            "first": "Abdallah Safarini",
+            "last": "Ymer Hjelmqvist"
+          }
+        }
+      },
+      "desc": {
+        "before": {
+          "employee": {
+            "first": "Abdallah Safarini",
+            "last": "Örjan Sjöholm"
+          }
+        },
+        "after": {
+          "employee": {
+            "first": "Ymer Hjelmqvist",
+            "last": "Abdallah Safarini"
+          }
+        }
+      }
+    },
+    "office": {
+      "asc": {
+        "before": {
+          "employee": {
+            "first": "Office: Lund",
+            "last": "Office: Stockholm"
+          }
+        },
+        "after": {
+          "employee": {
+            "first": "Office: Borlänge",
+            "last": "Office: Svea"
+          }
+        }
+      },
+      "desc": {
+        "before": {
+          "employee": {
+            "first": "Office: Lund",
+            "last": "Office: Stockholm"
+          }
+        },
+        "after": {
+          "employee": {
+            "first": "Office: Svea",
+            "last": "Office: Borlänge"
+          }
+        }
+      }
+    }
+  },
+  "filterBy": {
+    "name": "Lisa Fritsch",
+    "office": "Borlänge"
+  }
+}
