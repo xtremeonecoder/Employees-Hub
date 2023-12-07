@@ -2,7 +2,7 @@
 
 This project shows employees and their informaton inside cards in a grid view. It provides a simple sorting and filtering tools at the top toolbar.
 
-## Online Demo: [Click here to see the demo](https://employees-hub.web.app/)
+## Online Demo: [Click here to see the demo](https://employees-hub-app.web.app/)
 
 ## Development Environment Setup
 
