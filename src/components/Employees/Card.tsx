@@ -26,22 +26,38 @@ const EmployeeCard: React.FC<IEmployeeCardProps> = ({ employee }): React.JSX.Ele
         </div>
         <div className="card-bottom-right">
           {employee.linkedIn && (
-            <a href={employee.linkedIn} target="_blank" rel="noopener noreferrer">
+            <a
+              href={`https://www.linkedin.com${employee.linkedIn}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="linkedin.png" alt="LinkedIn" />
             </a>
           )}
           {employee.gitHub && (
-            <a href={employee.gitHub} target="_blank" rel="noopener noreferrer">
+            <a
+              href={`https://github.com/${employee.gitHub}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="github.png" alt="GitHub" />
             </a>
           )}
           {employee.twitter && (
-            <a href={employee.twitter} target="_blank" rel="noopener noreferrer">
+            <a
+              href={`twitter.com/romeoaninda/${employee.twitter}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="twitter.png" alt="Twitter" />
             </a>
           )}
           {employee.stackOverflow && (
-            <a href={employee.stackOverflow} target="_blank" rel="noopener noreferrer">
+            <a
+              href={`https://stackoverflow.com/users/${employee.stackOverflow}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="stackoverflow.png" alt="Stack Overflow" />
             </a>
           )}
