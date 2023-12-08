@@ -45,7 +45,7 @@ const EmployeeCard: React.FC<IEmployeeCardProps> = ({ employee }): React.JSX.Ele
           )}
           {employee.twitter && (
             <a
-              href={`twitter.com/romeoaninda/${employee.twitter}`}
+              href={`https://twitter.com/${employee.twitter}`}
               target="_blank"
               rel="noopener noreferrer"
             >
